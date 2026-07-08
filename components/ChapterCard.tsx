@@ -60,7 +60,7 @@ export default function ChapterCard({
         </span>
         <div className="min-w-0 flex-1">
           <p className="text-[11px] font-bold uppercase tracking-wide text-red-500">
-            티타의 발명 노트 · {chapter.section}
+            티타의 발명 노트 <span className="text-stone-400">| {chapter.section}</span>
           </p>
           <h2 className="mt-0.5 text-base font-extrabold leading-snug text-stone-900 sm:text-lg">
             {chapter.chapterTitle}

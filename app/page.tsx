@@ -7,7 +7,17 @@ import { useProgress } from "@/lib/useProgress";
 import GamifyBar from "@/components/GamifyBar";
 import ChapterCard from "@/components/ChapterCard";
 
-const SECTIONS: ChapterSection[] = ["트렌드 키워드 10", "범용 AI 3종 마스터"];
+const SECTIONS: ChapterSection[] = [
+  "1장 · 트렌드 키워드 10",
+  "2장 · 범용 AI 마스터",
+  "3장 · 프롬프트 작성법",
+  "4장 · 로컬 오픈소스 AI",
+  "5장 · 검색 특화 AI",
+  "6장 · 에이전트 특화 AI",
+  "7장 · 사무 특화 AI",
+  "8장 · 미디어 특화 AI",
+  "에필로그",
+];
 
 export default function Home() {
   const { loaded, state, level, studyCard, solveQuiz, markSectionMaster, reset } =
